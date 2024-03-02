@@ -1,3 +1,17 @@
 streamlit
 streamlit_code_editor
+
+# optional
 ollama
+groq
+plotly
+plotly_express
+altair
+scikit-learn
+pandas
+numpy
+tensorflow
+huggingface
+transformers
+torch
+matplotlib
