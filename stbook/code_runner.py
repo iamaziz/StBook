@@ -2,8 +2,9 @@
 from io import StringIO
 import sys
 
+
 from code_editor import code_editor
-# from .optional_imports import *
+from .optional_imports import *
 
 
 def run_code(code):
