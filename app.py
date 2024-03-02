@@ -1,14 +1,14 @@
 import streamlit as st
 
 from stbook.code_runner import code_runner
-from stbook.code_completion import auto_complete
 
 st.set_page_config(layout="wide")
 st.title("Streamlit Notebook")
 
 
 def copilot():
-    if st.toggle(f"Copilot"): auto_complete()
+    from stbook.code_completion import auto_complete
+    auto_complete()
 
 
 def app():
@@ -28,5 +28,5 @@ def app():
 
 if __name__ == "__main__":
     app()
-    copilot() # optional copilot, requires Ollama
+    if st.toggle(f"Copilot"): copilot() # optional copilot, requires Ollama
 
