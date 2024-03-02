@@ -7,7 +7,7 @@ setup(
     version="0.1",
     author="Aziz Alto",
     author_email="iamaziz.alto@gmail.com",
-    description="A Streamlit Notebook, like Jupyter Notebook but on top of Streamlit development.",
+    description="Streamlit Notebook - imagine Jupyter notebook inside Streamlit.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url=HOME_URL,
@@ -15,6 +15,7 @@ setup(
     install_requires=[
         "streamlit",
         "streamlit_code_editor",
+        "ollama", # optional
     ],
     package_data={'stbook': ['app.py']},
     include_package_data=True,
