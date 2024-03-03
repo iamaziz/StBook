@@ -10,7 +10,13 @@
 
 
 
-# DEMO
+### DEMOs
+
+
+
+https://github.com/iamaziz/StBook/assets/3298308/210b536c-60b3-486e-921d-73c3c5f76cdc
+
+
 
 <sub>NOTE: Copilot is running locally, not availabe in the deployed version.</sub>
 
