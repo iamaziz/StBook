@@ -4,6 +4,7 @@ import sys
 
 
 from code_editor import code_editor
+import streamlit as st
 
 
 def run_code(code):
