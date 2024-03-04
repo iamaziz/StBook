@@ -4,6 +4,7 @@
 
 
 [![Open in Streamlit][share_badge]][share_link]
+[![PyPI version](https://badge.fury.io/py/stbook.svg)](http://badge.fury.io/py/stbook)
 
 <img width="1497" alt="image" src="https://github.com/iamaziz/StBook/assets/3298308/c18671be-df86-4e78-a3c1-f734f2987361">
 
