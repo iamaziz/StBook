@@ -1,6 +1,6 @@
 import streamlit as st
 
-from .code_runner import code_runner
+from code_runner import code_runner
 
 st.set_page_config(layout="wide")
 st.title("Streamlit Notebook")
