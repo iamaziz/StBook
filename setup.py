@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
-HOME_URL = "https://github.com/iamaziz/st_ollama"
+HOME_URL = "https://github.com/iamaziz/stbook"
 
 setup(
     name="stbook",
-    version="0.1",
+    version="0.0.1",
     author="Aziz Alto",
     author_email="iamaziz.alto@gmail.com",
-    description="Streamlit Notebook - imagine Jupyter notebook inside Streamlit.",
+    description="Streamlit Notebook - imagine Jupyter Notebook within Streamlit.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url=HOME_URL,
